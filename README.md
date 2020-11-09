@@ -1,7 +1,7 @@
 # Skin_Cancer_Image_Classification
 To design automated diagnostics of dermatoscopic images of pigmented skin lesions into various cancer and non-cancerous categories.
 
-**Data Source**
+## Data Source
 
 The International Skin Imaging Collaboration (ISIC) is an international effort to improve
 melanoma diagnosis, sponsored by the International Society for Digital Imaging of the Skin
@@ -26,7 +26,7 @@ other data scientists and machine learning engineers, and enter competitions to 
 challenges.
 https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
-**Data Description**
+## Data Description
 
 HAM10000 ("Human Against Machine with 10000 training images") dataset is a large collection
 of multi-source dermatoscopic images of common pigmented skin lesions from different
@@ -48,6 +48,35 @@ confocal.
 types namely abdomen, acral, back, chest, ear, face, foot, genital, hand, lower extremity,
 neck, scalp, trunk, upper extremity and unknowns.
 
+## Methology
+
+* K-Nearest Neighbour 
+* Support Vector Machine
+* Artificial Neural Network
+* Convolutional Neural Network
+* Transfer Learning Mobilnet
+
+## Results and Comparison
+
+TABLE: Comparison of Classifiers
+
+CLASSIFIER               |                           ACCURACY                  |        TRAINING TIME
+-------------------------|-----------------------------------------------------|------------------------------
+
+K-Nearest Neighbour(KNN) |        Manhattan Distance 67.3%  Euclidean Distance 68.42%   |              40 minutes
+-------------------------|------------------------------------------------------------|------------------------------
+
+Support Vector Machine (SVM) | Polynomial Kernel 73.18%  Radial Basis Function Kernel 72.51%  |          30 minutes
+-----------------------------|-----------------------------------------------------------------|-----------------------
+
+Artificial Neural Network (ANN) | Single Hidden Layer 72.3%  Hidden Layer 71.7%  Hidden Layer 71.48% | 20 minutes (using 12 GB NVIDIA Tesla K80 GPU)
+--------------------------------|---------------------------------------------------------------------|----------------------------------------------
+
+Convolutional Neural Network (CNN) | Without Data Augmentation (10015 Images) 75.5%   |       2 hours 15 minutes (using 12 GB NVIDIA Tesla K80 GPU)
+------------------------------------|--------------------------------------------------|-------------------------------------------------------------
+
+Convolutional Neural Network (CNN) (MobileNet Architecture)| With Data Augmentation (34588 Images) 86.14% | 3 hours 35 minutes (using 12 GB NVIDIA Tesla K80 GPU)
+-----------------------------------------------------------|-----------------------------------------------|-----------------------------------------------------
 
 
 
