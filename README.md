@@ -58,7 +58,7 @@ neck, scalp, trunk, upper extremity and unknowns.
 
 ## Results and Comparison
 
-TABLE: Comparison of Classifiers
+* TABLE: Comparison of Classifiers
 
 CLASSIFIER               |                           ACCURACY                  |        TRAINING TIME
 -------------------------|-----------------------------------------------------|------------------------------
@@ -79,4 +79,19 @@ Convolutional Neural Network (CNN) (MobileNet Architecture)| With Data Augmentat
 -----------------------------------------------------------|-----------------------------------------------|-----------------------------------------------------
 
 
+* Plot and Selected Model Evaluation 
 
+![Plot Skin](https://user-images.githubusercontent.com/38158849/98530470-f6786b80-22a4-11eb-9dc4-20b4d677e38c.png)
+
+![Validation](https://user-images.githubusercontent.com/38158849/98531220-0c3a6080-22a6-11eb-88da-bf1baeb453b4.png)
+
+![Testing](https://user-images.githubusercontent.com/38158849/98531251-16f4f580-22a6-11eb-86fc-ef000b1b6a93.png)
+
+* Output Or Prediction of Newly Skin Images
+
+![Prediction1](https://user-images.githubusercontent.com/38158849/98531760-d2b62500-22a6-11eb-8fde-f0133afb5e67.png)
+
+![Prediction2](https://user-images.githubusercontent.com/38158849/98531768-d649ac00-22a6-11eb-8b5b-2638985737c8.png)
+
+
+Follow me on [Linkedin](https://www.linkedin.com/in/nikhil-singh-9a5324b4/)
